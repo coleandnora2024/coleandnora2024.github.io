@@ -2095,7 +2095,13 @@ input, select, textarea {
 	#header-wrapper {
 		position: relative;
 		padding: 4em 0 2em 0;
-	 	background-image: url("images/main_banner_BW.jpg") no-repeat scroll 0 0;
+	 	background: url("images/main_banner_BW.jpg") no-repeat;
+	 	background-size: contain;
+	 	width: 100%;
+	 	margin: 20px;
+	 	text-align: center;
+		color: #fff;
+
 		/*background-image: url("images/overlay.png"), url("images/header.svg"), -moz-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
 		background-image: url("images/overlay.png"), url("images/header.svg"), -webkit-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
 		background-image: url("images/overlay.png"), url("images/header.svg"), -ms-linear-gradient(75deg, #FF7088 15%, #F2B69D 55%);
@@ -2106,9 +2112,6 @@ input, select, textarea {
 		background-size: 128px 128px, 100% 620%, auto;
 		background-repeat: repeat, no-repeat, no-repeat;
 */	
-	 	background-size: cover;
-	 	background-position: 50% 32%;
-		color: #fff;
 	 }
 
 	.homepage #header-wrapper {
